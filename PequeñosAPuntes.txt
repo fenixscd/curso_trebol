@@ -1,0 +1,3 @@
+Paginas:
+	Compatibilidad con los navegadores
+	http://caniuse.com/

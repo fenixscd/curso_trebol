@@ -35,13 +35,21 @@ body {
 
 #plan h1 {
     font-size: 80px;
-    margin: 0px;
+    margin: 30px 0px 50px;
 }
 
-#plan a {
+#plan h1 + a {
+    background-color: #ff4632;
+    color: white;
+    padding: 25px 90px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 58px;
+
 
 }
 
 #plan p {
-
+    margin-top: 40px;
 }
