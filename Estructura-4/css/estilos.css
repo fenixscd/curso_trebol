@@ -46,10 +46,13 @@ body {
     font-weight: 600;
     font-size: 25px;
     border-radius: 58px;
-
-
 }
 
 #plan p {
-    margin-top: 40px;
+    margin-top: 50px;
 }
+
+#plan p a {
+    color: #ff4632;
+}
+
