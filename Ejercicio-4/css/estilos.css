@@ -56,3 +56,18 @@ body {
     color: #ff4632;
 }
 
+
+#ventajas {
+
+}
+
+#ventajas img {
+    width: 200px;
+}
+
+#ventajas .centrado div {
+    float: left;
+    width: 292.5px;
+    padding: 0 15px;
+
+}
