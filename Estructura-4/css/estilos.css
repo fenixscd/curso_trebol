@@ -2,7 +2,9 @@
 #logo {
     background-color: rgba(0, 0, 0, 0.80);
     height: 80px;
+    width: 100%;
     text-align: left;
+    position: fixed;
 
 }
 
@@ -22,5 +24,24 @@ body {
 #plan {
     height: 542px;
     background-color: #503750;
-    color: wheat;
+    color: white;
+}
+
+#plan h2 {
+    margin-top: 0px;
+    padding-top: 148px;
+    margin-bottom: 0px;
+}
+
+#plan h1 {
+    font-size: 80px;
+    margin: 0px;
+}
+
+#plan a {
+
+}
+
+#plan p {
+
 }
