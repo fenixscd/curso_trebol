@@ -9,10 +9,18 @@
 #logo img {
     width: 130px;
     height: auto;
+    margin-top: 20px;
+    margin-left: 33px;
 }
 
 body {
     margin: 0px;
     font-family: sans-serif;
     text-align: center;
+}
+
+#plan {
+    height: 542px;
+    background-color: #503750;
+    color: wheat;
 }
