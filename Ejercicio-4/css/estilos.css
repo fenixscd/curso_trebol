@@ -85,11 +85,20 @@ body {
     width: 200px;
 }
 
-#ventajas .centrado div {
+#ventajas .centrado .cuadrados{
+    width: 1170px;
+    margin: 0 auto;
+
+}
+
+
+#ventajas .centrado div div{
     float: left;
     width: 25%;
 
 }
+
+
 
 .centrado {
     margin: 0 auto;
