@@ -1,3 +1,9 @@
 Paginas:
 	Compatibilidad con los navegadores
 	http://caniuse.com/
+
+h1+a
+	Se refiere al a justo despues del h1
+
+
+Atajos
