@@ -63,10 +63,10 @@ body {
 #ventajas .centrado div {
     float: left;
     width: 25%;
-    padding: 0 15px;
+
 }
 
-.centrado {
+#ventajas .centrado {
     margin: 0 auto;
-    width: 1300px;
+    width: 1170px;
 }
