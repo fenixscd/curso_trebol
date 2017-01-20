@@ -34,6 +34,14 @@ body {
 
 }
 
+#premium h2 {
+    margin: 0px;
+    font-size: 60px;
+    color: white;
+    padding-top: 110px;
+
+}
+
 #ventajas .centrado h2 {
     margin: 0px;
     padding-top: 60px;
@@ -113,4 +121,35 @@ body {
 #premium {
     background-color: #503750;
     height: 620px;
+}
+
+#premium .centrado h2 + p {
+    color: white;
+    font-family: sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#premium p + a {
+    background-color: #ff4632;
+    color: white;
+    padding: 25px 90px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 58px;
+}
+
+#premium a + p {
+    padding-top: 30px;
+    color: white;
+}
+
+#premium p a {
+
+    color: #ff4632;
+    text-decoration: none;
+} {
+
 }
