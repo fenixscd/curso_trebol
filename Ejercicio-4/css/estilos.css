@@ -162,3 +162,20 @@ body {
 } {
 
 }
+
+#footer {
+    background-color: black;
+    height: 45px;
+}
+
+
+
+#footer .centrado p {
+    margin: 0px;
+    padding-top: 20px;
+    color: white;
+}
+
+#legal {
+    float: left;
+}
