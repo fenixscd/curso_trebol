@@ -27,10 +27,27 @@ body {
     color: white;
 }
 
-#plan h2 {
+#plan .centrado h2 {
     margin-top: 0px;
     padding-top: 148px;
-    margin-bottom: 0px;
+    margin: 0px;
+
+}
+
+#ventajas .centrado h2 {
+    margin: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 40px;
+
+}
+
+#naranja h2 {
+    margin: 0px;
+    font-size: 60px;
+    color: white;
+    padding-top: 110px;
+
 }
 
 #plan h1 {
@@ -66,7 +83,34 @@ body {
 
 }
 
-#ventajas .centrado {
+.centrado {
     margin: 0 auto;
-    width: 1170px;
+}
+
+#naranja {
+    height: 530px;
+    background-color: #ff4222;
+}
+
+#ventajas {
+    height: 530px;
+    background-color: #f4f4f4;
+}
+
+#preguntas {
+    height: 620px;
+    background-color: #f4f4f4;
+}
+#preguntas h2{
+    margin: 0px;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+#preguntas p{
+}
+
+#premium {
+    background-color: #503750;
+    height: 620px;
 }
