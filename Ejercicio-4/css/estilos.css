@@ -24,6 +24,12 @@ body {
 #plan {
     height: 542px;
     background-color: #503750;
+    background-image:
+        url(../img/auricular_izqda.png), url(../img/auricular_dcha.png);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+
+
     color: white;
 }
 
@@ -107,6 +113,8 @@ body {
 #naranja {
     height: 530px;
     background-color: #ff4222;
+    background: #ff4222 url(../img/cable.png) center no-repeat;
+    background-size: cover;
 }
 
 #ventajas {
@@ -130,6 +138,8 @@ body {
 #premium {
     background-color: #503750;
     height: 620px;
+    background: #503750 url(../img/movil.png) center no-repeat;
+    background-size: contain;
 }
 
 #premium .centrado h2 + p {
@@ -168,6 +178,13 @@ body {
     height: 45px;
 }
 
+#footer p{
+    margin: 0px;
+    color: #ccc;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
 
 
 #footer .centrado p {
@@ -176,6 +193,17 @@ body {
     color: white;
 }
 
+#bandera img {
+    width: 23px;
+    height=12px;
+    margin-right: 15px;
+}
+
+
 #legal {
     float: left;
+}
+
+#bandera {
+    float: right;
 }
