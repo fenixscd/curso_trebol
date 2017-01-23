@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    font-size: 24px;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: red;
+}
+
+p span {
+    color: orange;
+}
+
+div p a {
+    color: purple;
+}
