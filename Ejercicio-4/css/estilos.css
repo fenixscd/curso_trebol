@@ -195,7 +195,7 @@ body {
 
 #bandera img {
     width: 23px;
-    height=12px;
+    height:auto;
     margin-right: 15px;
     vertical-align: middle;
 }
