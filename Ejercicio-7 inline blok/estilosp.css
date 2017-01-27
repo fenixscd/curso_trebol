@@ -45,9 +45,10 @@ li {
     background-image: url(img/naranja.svg);
     background-repeat: no-repeat;
     background-size: 4.5%;
+    background-position: 5px 3px;
     
     height: 30px;
     padding-left: 40px;
-    padding-top: 10px;
+    padding-top: 13px;
     padding-bottom: 5px;
 }
