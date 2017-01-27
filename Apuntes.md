@@ -20,4 +20,8 @@ ul>(li>{elemento $})*5
   </ul>
 ~~~
 
+li:nth-child(1){}
+Afecta solo al primer elemento de la linea.
+
+
 Ctrl+Ç -> Para comentar varias lineas,

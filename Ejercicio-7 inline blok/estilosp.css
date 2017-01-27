@@ -52,3 +52,12 @@ li {
     padding-top: 13px;
     padding-bottom: 5px;
 }
+
+li:nth-child(1){
+    color: red;
+    background-image: url(img/verde.svg);
+}
+
+li:hover{
+    color: chartreuse;
+}
