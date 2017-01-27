@@ -44,8 +44,10 @@ li {
     list-style: none;
     background-image: url(img/naranja.svg);
     background-repeat: no-repeat;
+    background-size: 4.5%;
+    
     height: 30px;
-    padding-left: 33px;
+    padding-left: 40px;
     padding-top: 10px;
     padding-bottom: 5px;
 }
