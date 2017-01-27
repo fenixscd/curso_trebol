@@ -31,11 +31,7 @@ body {
 
 #menu ul li a:hover {
     color: #a0c3d2;
-    
-    
 }
-
-
 
 .centrado {
     width: 1170px;
@@ -49,6 +45,7 @@ body {
 #logo {
     float: left;
 }
+
 #logo img {
     margin: 19px 20px;
     width: 142px;
