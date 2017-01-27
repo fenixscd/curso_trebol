@@ -39,7 +39,13 @@ ul {
 li {
     background-color: aqua;
 /*    width: 100px;*/
-    list-style-position: inside;
-    list-style-image: url(img/devito.jpg);
-    list-style-position: inside;
+/*    list-style-image: url(img/naranja.svg);*/
+/*    list-style-position: inside;*/
+    list-style: none;
+    background-image: url(img/naranja.svg);
+    background-repeat: no-repeat;
+    height: 30px;
+    padding-left: 33px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
