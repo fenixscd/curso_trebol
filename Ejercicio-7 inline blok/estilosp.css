@@ -30,3 +30,16 @@ p{
 #peque {
     height: 80px;
 }
+
+ul {
+    background-color: red;
+    
+}
+
+li {
+    background-color: aqua;
+/*    width: 100px;*/
+    list-style-position: inside;
+    list-style-image: url(img/devito.jpg);
+    list-style-position: inside;
+}
