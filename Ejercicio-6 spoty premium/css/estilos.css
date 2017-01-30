@@ -64,7 +64,26 @@ body {
 }
 
 #slider {
-    height: 1040px;
+    height: 480px;
     background: #0a55ff url(../img/imagen_grande.jpg) 0 0 no-repeat;
-    background-size: cover;
+    background-position: center;
+/*    background-size: cover;*/
+    background-size: contain;
+}
+
+#suscribete strong{
+    font-weight: 800;
+}
+
+#suscribete {
+    text-align: center;
+}
+
+.columnas {
+    border: 1px solid silver;
+    width: 360px;
+    height: 560px;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: left;
 }
