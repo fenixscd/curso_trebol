@@ -13,10 +13,11 @@ body {
 
 
 #menu ul {
-    margin: 0;
+    margin: 0px;
     list-style: none;
-   
 }
+
+
 #menu ul li {
    
     float: left;
@@ -29,13 +30,24 @@ body {
    
 }
 
+#suscribete a{
+    text-align: center;
+    padding: 10px 10px;
+    background-color:greenyellow;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    display: block;
+    margin: 0px auto;
+    width: 177px;
+}
+
 #menu ul li a:hover {
     color: #a0c3d2;
 }
 
 .centrado {
     width: 1170px;
-   
     margin: 0 auto;
    
 }
@@ -77,6 +89,22 @@ body {
 
 #suscribete {
     text-align: center;
+}
+
+#suscribete ul {
+    list-style: none;
+    padding: 0px;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    margin: 35px 10px 20px;
+}
+
+#suscribete ul li {
+    background-image: url(../img/verde.svg);
+    background-repeat: no-repeat;
+    padding: 10px 0px 0px 35px;
+    background-size: 15px;
+    background-position: 9px 8px; 
 }
 
 .columnas {
