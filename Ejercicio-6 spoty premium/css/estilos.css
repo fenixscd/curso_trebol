@@ -115,3 +115,24 @@ body {
     vertical-align: bottom;
     text-align: left;
 }
+
+#premium h3, #premium p {
+    color: greenyellow;
+    padding-left: 10px;
+}
+
+#premium p+p {
+    color: black;
+}
+
+#premium span{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#premium h3+p{
+    font-size: 31px;
+    
+}
+
+
