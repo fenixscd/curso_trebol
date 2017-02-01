@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+}
+.centrado {
+    width: 980px;
+    margin: 0px auto;
+}
+
+.columnas {
+    float: left;
+    width: 50%;
+    margin-top: 29px;
+}
+
+.columnas h3{
+    padding-top: 30px;
+    padding-bottom: 14px;
+    font-size: 40px;
+    color: #ee7b46;
+}
+
+.columnas p{
+    font-size: 15px;
+    color: #878787;
+    font-style: italic;
+}
+
+.columnas div{
+    display: inline-block;
+    vertical-align: top;
+    width: 308px;
+}
+
+
+
+#servicios h2{
+    font-size: 54px;
+    color: #2f2f2f;
+
+}
