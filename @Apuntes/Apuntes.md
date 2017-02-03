@@ -8,19 +8,18 @@
 
 
 
+## Rcursos
 
-
-
+Artiseteer ->Para hacer plantillas.
+Adobe edge ->Para crear paginas de manera facil (descontinuado).
 
 ## Paginas de internet
-
 https://archive.org/ -> Pagina que se dedica hacer copias de pajians de internet.
 https://fonts.google.com/ ->
 
 
 
 ## Atajos de teclado
-
 `Ctrl+Ç` -> Para comentar varias lineas.
 
 ## Emmet
