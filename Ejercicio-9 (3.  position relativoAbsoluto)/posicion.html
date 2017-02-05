@@ -10,7 +10,7 @@
             padding: 0;
             background: #000;
         }
-        
+
         #capa1 {
             width: 300px;
             height: 200px;
@@ -22,7 +22,7 @@
             background-color: #595959;
             background-image: url(capa1.jpg);
         }
-        
+
         #capa2 {
             width: 260px;
             height: 400px;
@@ -32,7 +32,7 @@
             background-image: url(capa2.jpg);
             background-color: #DADADA;
         }
-        
+
         #capa3 {
             width: 100px;
             height: 100px;
@@ -49,7 +49,7 @@
 <body>
 
     <div id="capa1"></div>
-    
+
     <div id="capa2">
         <div id="capa3"></div>
     </div>
@@ -59,3 +59,33 @@
 </body>
 
 </html>
+
+
+<!-- Ejercicios
+1- Capa con posición absoluta dentro de una capa con posición estática. Cuando esto sucede, la capa con posición absoluta
+ignora al elemento padre y sus coordenadas de posición se fijan al elemento siguiente, en este caso, al elemento body. Para ver
+esto, modificaremos el valor de la propiedad “position” de la capa 3, al que daremos el valor “absolute”. Veremos que la capa 3
+ignorará a la capa padre y a la capa 1, posicionándose respecto del elemento body.
+
+2- Capa con posición relativa en una capa con posición estática. Cambiando el valor de la posición de la capa 3 por “relative”,
+veremos lo siguiente :
+    La capa 3 respetará el flujo del documento y la posición de la capa 1.
+    La capa 3 se posicionará respecto del comienzo de la capa padre, en este caso, la capa 2.
+
+3- Una capa con posición absoluta anidada en una capa con posición relativa. En este caso, modificaremos el valor static de la
+capa 2 para darle el valor relative, mientras que a la capa 3 le daremos posición absoluta
+La capa 2, en este caso, no ignorará la presencia de la capa 1, ya que ambos valores (static y relative) respetan el orden del flujo
+del documento; de esta forma, la capa 2 fijará sus coordenadas de posición respecto del final de la capa 1.
+La capa 3 fijará su posición respecto del comienzo de su capa padre, en este caso, la capa 2, tal como es la característica de las
+capas con posición absoluta.
+
+4- Una capa con posición absoluta anidada en otra capa con posición absoluta. Para ver esto, cambiaremos a “absolute” las
+capas 2 y 3.
+Como puede verse, la capa 2 ignora la posición de la capa 1 y se posiciona en referencia al elemento body.
+Mientras tanto, la capa 3 se posicionará en referencia al inicio de su capa padre.
+
+5- Una capa estática anidada en una capa absoluta cuya capa precedente es una capa con posición relativa. Capa 1 con posición
+“relative”, capa 2 con posición “absolute”, capa 3 con posición “static”.
+Como puede apreciarse, la capa 2 ignora la posición de la capa 1 y se posiciona respecto del elemento body.
+La capa 3 se instala, tal como es característico de los elementos con posición estática, en el inicio de la capa contenedora, en
+este caso, la capa 2. -->
