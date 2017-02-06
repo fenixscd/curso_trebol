@@ -44,7 +44,6 @@
 #bienvenido {
     background-color: aqua;
     box-sizing: border-box;
-    height: 400px;
 /*    position: relative;*/
     
 }
@@ -87,11 +86,12 @@
     position: absolute;
     color: white;
     background-color: coral;
+    border-radius: 15px 15px 0px 0px; 
     bottom: 0px;
+    left: 180px;
 }
 
 #esperamos p{
-    
     padding: 20px;
-    margin-bottom: 10px;
+    font-size: 32px;
 }
