@@ -1,5 +1,8 @@
 # Apuntes curso
 
+Despues de un elemento flotado si tenemos un elemento que queremos de en la parate inferior, utilizaremos:
+`clear:bot;` Limpiar despues de ambos.
+
 ### Sprite imagenes
 En CSS nos referimos a sprite para hacer alusión a un conjunto de imágenes diferentes agrupadas todas ellas en una misma imagen.
 
