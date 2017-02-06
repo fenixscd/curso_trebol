@@ -30,6 +30,7 @@ Si un conteneror contiene elementos flotantes tendremos que ponerlo *overflow:au
 -*Everyscrud* -> Insertar etiquetas en texto.
 -*Brackets tree icons* -> Pone iconos al lado de los archivos dependiendo del tipo.
 -*jquinter* -> Para que sugiera las etiqutas, id y class de los archivos html en el archivo CSS.
+-*Autoprefixer* -> Para que añada los prefijos necesarios para los diferentes navegadores.
 
 ## Extenciones para Google Chrome
 -*Gred ruels* -> Indica las medidas y los tamaños.
