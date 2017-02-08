@@ -96,6 +96,45 @@
     font-size: 32px;
 }
 
+/************************************/
+
+#contacto{
+    padding: 19px;
+    overflow: hidden;
+}
+
+#contacto h2 {
+    color:#666666;
+    font-size: 24px;
+}
+
+#contacto p {
+    font-size: 27px;
+}
+
+.rectangulo{
+    width: 49%;
+}
+
+.rectangulo .contenido{
+    border: 2px solid #DDDDDD;
+}
+
+
+
+#fabricante {
+    float: left;
+}
+
+#trabaja{
+    float: right
+}
+
+
+
+
+
+/*
 .rectangulo {
     margin-top:29px ;
     
@@ -111,8 +150,7 @@
 }
 
 .rectangulo h2{
-    color:#666666;
-    font-size: 24px;
+    
 }
 
 #fabricante {
@@ -125,7 +163,8 @@
 }
 
 #fabricante .contenido{
-/*    background: #EB6507 url(../img/martillos.jpg) 100% no-repeat;*/
+    background: #EB6507 url(../img/martillos.jpg) 100% no-repeat;
 }
+*/
 
 
