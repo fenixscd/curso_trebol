@@ -103,68 +103,47 @@
     overflow: hidden;
 }
 
+.rectangulo{
+    border: 2px solid #DDDDDD;
+    padding: 10px;
+    width: 454px;
+    
+    overflow: hidden;
+}
+.contenido{
+    height: 205px;
+}
+
+.contenido p {
+    font-size: 27px;
+    width: 244px;
+}
+
+
+
 #contacto h2 {
     color:#666666;
     font-size: 24px;
 }
 
-#contacto p {
-    font-size: 27px;
-}
-
-.rectangulo{
-    width: 49%;
-}
-
-.rectangulo .contenido{
-    border: 2px solid #DDDDDD;
-}
-
-
 
 #fabricante {
     float: left;
 }
+
+#fabricante .rectangulo{
+    background-color: white;
+}
+
+#fabricante .contenido {
+    background: #EB6507 url(../img/martillos.jpg) 100% no-repeat;
+   
+}
+
 
 #trabaja{
     float: right
 }
 
-
-
-
-
-/*
-.rectangulo {
-    margin-top:29px ;
-    
-    border: 10px solid white;
-    background-color: #EB6507;
-    
-}
-
-.contenido {
-    background-color: #EB6507;
-    width: 47%;
-    height: 200px;
-}
-
-.rectangulo h2{
-    
-}
-
-#fabricante {
-    float: left;
-    
-}
-
-#trabaja {
-    float: right;
-}
-
-#fabricante .contenido{
-    background: #EB6507 url(../img/martillos.jpg) 100% no-repeat;
-}
-*/
 
 
