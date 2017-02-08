@@ -97,18 +97,24 @@
 }
 
 .rectangulo {
-    width: 45%;
+    margin-top:20px ;
+    width: 47%;
+    height: 200px;
     border: 10px solid white;
     background-color: #EB6507;
+    
+    
 }
 
 .rectangulo h2{
     color:#666666;
     font-size: 24px;
+    
 }
 
 #fabricante {
     float: left;
+    background: #EB6507 url(../img/martillos.jpg) 100% no-repeat;
 }
 
 #trabaja {
