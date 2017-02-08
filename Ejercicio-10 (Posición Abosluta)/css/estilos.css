@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+/*    box-sizing: border-box;*/
 }
 
 .centrado {
@@ -107,18 +108,51 @@
     border: 2px solid #DDDDDD;
     padding: 10px;
     width: 454px;
-    
     overflow: hidden;
 }
+
+.rectangulo {
+    background-color: #DDDDDD;
+}
+
+.rectangulo #trabajo{
+    
+}
+
 .contenido{
     height: 205px;
 }
 
+.contenido img {
+    position: relative;
+    top: 6px;
+}
 .contenido p {
     font-size: 27px;
-    width: 244px;
+    padding: 21px 21px 5px 21px;
+    width: 190px;
 }
 
+.contenido a {
+    position: relative;
+    top: 8px;
+    left: 66px;
+    padding: 9px 34px 9px 9px;
+    text-align: right;
+    border-radius: 13px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#fabricante a{
+    background: white url(../img/flechaN.png) 94% no-repeat;
+    color: black;
+}
+
+#trabaja a{
+    background: #EB6507 url(../img/flecha_blanca.png) 94% no-repeat;
+    color: black;
+}
 
 
 #contacto h2 {
@@ -137,7 +171,10 @@
 
 #fabricante .contenido {
     background: #EB6507 url(../img/martillos.jpg) 100% no-repeat;
-   
+}
+
+#trabaja .contenido{
+    background: white url(../img/chica.jpg) 100% no-repeat;
 }
 
 
