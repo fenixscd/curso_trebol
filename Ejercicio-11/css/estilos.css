@@ -8,3 +8,47 @@ body {
     background-color: red;
 }
 
+#cabeceraInterior {
+    overflow: hidden;
+}
+
+.centrado {
+    margin: 0 auto;
+    background-color: beige;
+    width: 960px;
+}
+
+
+
+
+
+
+
+
+
+#menuInferior li{
+    float: right;
+    list-style: none;     
+}
+
+#menuInferior a{
+    text-decoration: none;
+    display: block;
+    padding: 8px 0px 8px 10px;
+    margin: 0px 0px 0px 10px;
+    width: 123px;
+    background-color: aqua;
+}
+
+#menuInferior a:hover {
+    background-color: #1dff00;
+}
+
+
+
+
+
+
+
+
+

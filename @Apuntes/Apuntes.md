@@ -25,6 +25,7 @@ Importante hay que tener las image al mismo tamaños que la vamos a mostrar, por
 `.texto h3 , .texto a{}` -> Afecta a todos los h3 y a que esten dentro de la clase texto.
 `div.texto h3 {}` -> Afecta a todos los h3 que esten dentro de un div con la clase texto.
 
+`a:hover` -> Para darle un formato diferente cuando se pase el raton por encima.
 
 `h1+a` -> Se refiere a la `a` justo despues del `h1`
 `li:nth-child(1){}` -> Afecta solo al primer elemento de la linea.
