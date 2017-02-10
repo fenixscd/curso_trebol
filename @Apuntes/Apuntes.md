@@ -18,6 +18,19 @@ Importante hay que tener las image al mismo tamaños que la vamos a mostrar, por
 <!-- [^]al final -->
 
 ## CSS
+`.texto h3 {}` -> Afecta a todos los h3 que esten dentro de la clase texto
+`.texto h3 a {}` -> Afecta a todos los a que esten dentro de un h3 y dentro de la clase texto
+`.texto h3 + a {}` -> Afecta a todos los a que esten dentro despues de h3 y dentro de la clase texto
+`.texto h3 , a{}` -> Afecta a todos los h3 que esten dentro de la clase texto y a todos los a del documento
+`.texto h3 , .texto a{}` -> Afecta a todos los h3 y a que esten dentro de la clase texto.
+`div.texto h3 {}` -> Afecta a todos los h3 que esten dentro de un div con la clase texto.
+
+
+
+
+
+
+
 `h1+a` -> Se refiere a la `a` justo despues del `h1`
 `li:nth-child(1){}` -> Afecta solo al primer elemento de la linea.
 `background-position: <posicion>` -> Posicion del fondo.
