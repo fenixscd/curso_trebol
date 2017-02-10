@@ -8,21 +8,25 @@ body {
     background-color: red;
 }
 
+#cabecera {
+    background-color: black;
+}
 .centrado {
     margin: 0 auto;
     background-color: beige;
     width: 960px;
 }
 
-
 #cabecera img{
     float: left;
 }
+
 
 /*********************************/
 
 #cabeceraInterior {
     overflow: hidden;
+    height: 270px;
 }
 
 
