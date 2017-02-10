@@ -18,6 +18,7 @@ body {
 }
 
 #cabecera img{
+    margin-top: 40px;
     float: left;
 }
 
@@ -25,11 +26,16 @@ body {
 /*********************************/
 
 #cabeceraInterior {
+    background-color: black;
     overflow: hidden;
     height: 270px;
+    padding-top:
 }
 
 
+#menuSuperior{
+    margin-top: 55px;
+}
 
 #menuSuperior li {
     float: right;
