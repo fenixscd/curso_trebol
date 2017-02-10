@@ -8,10 +8,6 @@ body {
     background-color: red;
 }
 
-#cabeceraInterior {
-    overflow: hidden;
-}
-
 .centrado {
     margin: 0 auto;
     background-color: beige;
@@ -19,10 +15,43 @@ body {
 }
 
 
+#cabecera img{
+    float: left;
+}
+
+/*********************************/
+
+#cabeceraInterior {
+    overflow: hidden;
+}
 
 
 
+#menuSuperior li {
+    float: right;
+    list-style: none;
+}
 
+#menuSuperior a{
+    text-decoration: none;
+    display: block;
+    padding: 8px 0px 8px 10px;
+    margin: 0px 0px 0px 10px;
+    width: 123px;
+    background-color: aqua;
+}
+
+#menuSuperior a:hover {
+    background-color: #1dff00;
+}
+
+
+
+/*************************************/
+
+#menuInferior {
+    clear: both;
+}
 
 
 
