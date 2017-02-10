@@ -26,11 +26,6 @@ Importante hay que tener las image al mismo tamaños que la vamos a mostrar, por
 `div.texto h3 {}` -> Afecta a todos los h3 que esten dentro de un div con la clase texto.
 
 
-
-
-
-
-
 `h1+a` -> Se refiere a la `a` justo despues del `h1`
 `li:nth-child(1){}` -> Afecta solo al primer elemento de la linea.
 `background-position: <posicion>` -> Posicion del fondo.
@@ -45,11 +40,16 @@ Si un conteneror contiene elementos flotantes tendremos que ponerlo *overflow:au
 -*jquinter* -> Para que sugiera las etiqutas, id y class de los archivos html en el archivo CSS.
 -*Autoprefixer* -> Para que añada los prefijos necesarios para los diferentes navegadores.
 
-## Extenciones para Google Chrome
+
+## Extensiones para Google Chrome
 -*Gred ruels* -> Indica las medidas y los tamaños.
 -*web developer* -> Entre otras cosas nos permite quitar las CSS.
 -*Whatfont Chrome* ->Para inspeccionar tipografias.
 -*Firebug* -> Para hacer debuguer.
+
+## Extensiones para Firefox
+-*measurel* -> Para poder medir
+
 
 ## Rcursos
 Artiseteer ->Para hacer plantillas.
@@ -63,6 +63,7 @@ Adobe edge ->Para crear paginas de manera facil (descontinuado).
 <https://fonts.google.com/> -> Para colocar fuentes de grateis de google.
 <https://www.fontsquirrel.com/> -> Tipografias gratis y podemos subir una tipografia y la transforma para todos los navegadores.
 <http://caniuse.com/> -> Compatibilidad con los navegadorea
+<https://color.adobe.com/es/create/color-wheel/> -> Plicación de adobe que tedice los colores que se han utilizado en una imagen.
 
 
 
