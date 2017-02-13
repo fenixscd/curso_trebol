@@ -136,22 +136,35 @@ body {
     color: white;
     text-decoration: none;
     font-size: 18px;
+
 }
 
 #dcha span {
-    font-size: 18px;
+    font-family: Georgia;
+    font-size: 11px;
     color: #83AE8C;
+}
+
+#dcha p a {
+    font-family: Helvetica;
+    font-size: 11px;
 }
 
 #contenido {
     margin: 20px 0px 20px 0px;
+    font-family: Helvetica;
+    font-size: 13px;
 }
 
 a#masInfo {
-    color: #83AE8C;
+    color: #62AEB4;
     display: block;
-    width: 200px;
-    padding-left: 20px;
-    background: url(../img/signposting-icon-blue.png) 0 0 no-repeat;
+    font-size: 13px;
+    width: 113px;
+    height: 22px;
+    padding-left: 23px;
+    background: url(../img/signposting-icon-blue.png) 2px 2px no-repeat;
+    padding-top: 3px;
+
 }
 
