@@ -1,46 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
+
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/estilos.css">
-    <title>Document</title>
+    <title>BLACK-LIGHT</title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
-<body>
-   <div id="cabecera">
-       <div id="cabeceraInterior" class="centrado">
-           <img src="img/blacklight-logo.png" alt="">
-           <ul id="menuSuperior">
-               <li><a href="#">menuSuperior</a></li>
-               <li><a href="#">menuSuperior</a></li>
-               <li><a href="#">menuSuperior</a></li>
-               <li><a href="#">menuSuperior</a></li>
-               <li><a href="#">menuSuperior</a></li>
-           </ul>
-           <ul id="menuInferior">
-               <li><a href="#">menuInferior</a></li>
-               <li><a href="#">menuInferior</a></li>
-               <li><a href="#">menuInferior</a></li>
-               <li><a href="#">menuInferior</a></li>
-               <li><a href="#">menuInferior</a></li>
-               <li><a href="#">menuInferior</a></li>
-           </ul>
-       </div>
-   </div>
 
-   <!--div#slider.centrado>div#izq(img+p+div>img+img)+div#dcha-->
+
+<body>
+   
+<!-- div#cabecera>div#cabeceraInterior.centrado>img+(ul#menuSuperior>(li>a[#]{menuSuperior$})*5)+ul#menuInferior>(li>a[#]{menuInferior$})*6 -->
+   
+    <div id="cabecera">
+        <div id="cabeceraInterior" class="centrado">
+            <img src="img/blacklight-logo.png" alt="">
+            <ul id="menuSuperior">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Standards</a></li>
+                <li><a href="#">Vacancies</a></li>
+            </ul>
+            <ul id="menuInferior">
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Manufacturers</a></li>
+                <li><a href="#">Training</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    
+<!--    ------------------------------------   -->
+
+<!--div#slider.centrado>div#izq(img+p+div>img+img)+div#dcha-->
 
 <div id="slider" class="centrado">
     <div id="izq">
         <img src="img/foto.jpg" alt="">
         <p>Casos estudio</p>
-        <div id="flechas"><img src="img/foto.jpg" alt=""><img src="" alt=""></div>
+        <div id="flechas"><img src="img/slider-arrows-off.jpg" alt=""><img src="" alt=""></div>
     </div>
     <div id="dcha">
-
+        
     </div>
 </div>
 
-
-    
 </body>
 </html>
