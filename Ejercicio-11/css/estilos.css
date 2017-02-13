@@ -83,8 +83,48 @@ body {
     background-color: #1dff00;
 }
 
+/****************/
+
+#slider {
+    background-color: #fff;
+    height: 410px;
+    margin-top: 10px;
+
+}
+
+#dcha {
+    background-color: black;
+    width: 333px;
+    height: 410px;
+    float: right;
+}
+
+#izq {
+    width: 617px;
+    background-color: red;
+    height: 410px;
+    float: left;
+    position: relative;
+
+}
 
 
+#izq p {
+
+    background-color: black;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+
+}
+
+#flechas {
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+}
 
 
 
