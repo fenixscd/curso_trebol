@@ -114,3 +114,20 @@ body {
     bottom: 0px;
     height: 40px;
 }
+
+/*****************/
+
+#dcha {
+    padding: 18px;
+}
+
+
+#dcha h2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#dcha span {
+    
+}
