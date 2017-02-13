@@ -119,8 +119,18 @@ body {
 
 #dcha {
     padding: 18px;
+    color: white;
+    font-family: Helvetica;
 }
 
+#dcha a{
+    text-decoration: none;
+    color: white;
+}
+
+#dcha h2 {
+    margin-bottom: 12px;
+}
 
 #dcha h2 a{
     color: white;
@@ -129,5 +139,19 @@ body {
 }
 
 #dcha span {
-    
+    font-size: 18px;
+    color: #83AE8C;
 }
+
+#contenido {
+    margin: 20px 0px 20px 0px;
+}
+
+a#masInfo {
+    color: #83AE8C;
+    display: block;
+    width: 200px;
+    padding-left: 20px;
+    background: url(../img/signposting-icon-blue.png) 0 0 no-repeat;
+}
+
