@@ -24,13 +24,69 @@
 .centrado{
     margin: o auto;
     width: 900px;
-    
+/*    background-color: #fff;*/
 }
 
 
 #bandaNegra {
-    font-style: 9px;;
-    border-color: black;
-    height: 30px;
+    font-style: 9px;
     color: gray;
+    background-color: black;
+    height: 30px;
+    text-align: right;
 }
+
+#bandaNegra p {
+    display: inline-block;
+    padding-top: 5px;
+}
+
+
+#bandaNegra .centrado p+p {
+    margin-left: 50px;
+}
+
+#bandaNegra .centrado a {
+    color: #bed6f7;
+    text-decoration: none;
+}
+
+#bandaNegra .centrado a:hover {
+    color: white;
+}
+
+#face, #twee {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+}
+
+
+#face {
+    background-image: url(../img/facebook.png);
+}
+
+#twee {
+    background-image: url(../img/twitter.png);
+}
+
+#face:hover, #twee:hover {
+    background-position: bottom;
+}
+
+
+#face:hover {
+    background-image: url(../img/facebook.png);
+}
+
+#twee:hover {
+    background-image: url(../img/twitter.png);
+}
+
+
+
+
