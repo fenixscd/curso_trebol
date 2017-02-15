@@ -14,7 +14,23 @@
 
 
 * {
-    font-family: 'DIN',sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Circular Book';
+    
+}
+
+.centrado{
+    margin: o auto;
+    width: 900px;
+    
 }
 
 
+#bandaNegra {
+    font-style: 9px;;
+    border-color: black;
+    height: 30px;
+    color: gray;
+}
