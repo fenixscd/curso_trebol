@@ -121,10 +121,35 @@
 
 #menu a:hover {
     color: black;
-    
+}
+
+/************ Minimenus ******************/
+
+#work {
+    width: 350px;
+    float: left;
+}
+
+#news {
+    float: right;
+}
+
+.trabajo {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.trabajo .detalle{
+    float: left;
+    width: 200px;
+    padding-left: 15px;
 }
 
 
+.trabajo img {
+    float: left;
+    width: 133px;
+}
 
 
 
