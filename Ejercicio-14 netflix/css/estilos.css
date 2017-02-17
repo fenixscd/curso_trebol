@@ -5,10 +5,18 @@ table {
 
 td {
     border: 1px solid #000;
-    width: 179px;
+    
     height: 40px
 }
 
-td:first-child { 
+
+tr:first-child { 
     background-color: red;
+    width: 222px;
+}
+
+td:nth-child(n+2) { 
+    background-color: red;
+    width: 146px;
+    text-align: center;
 }
