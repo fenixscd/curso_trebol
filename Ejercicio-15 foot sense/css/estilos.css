@@ -14,7 +14,29 @@
     font-family: "TisaPro";
 }
 
-
-h1 {
+#menu ul {
     
 }
+
+#menu ul li {
+    float: left;
+}
+
+#munu ul li a {
+    background-color: burlywood;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: center 2px;
+    background-size: 17%;
+    color: black;
+    display: block;
+    
+    height: 58px;
+    padding: 32px 36px 0px;
+}
+
+#enlace1 {
+    background-color: url(ruat del icono)
+}
+
+

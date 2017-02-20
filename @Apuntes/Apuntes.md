@@ -43,6 +43,8 @@ Importante hay que tener las image al mismo tamaños que la vamos a mostrar, por
 
 -    `text-indent` ->Sangrado para la primera linea.
 
+-    `displey:none` -> Oculta el contenido
+
 #### Tablas
 -    `border-collapse: collapse` -> Para que solo aparezca un borde;
 -    `td` -> Filas.
