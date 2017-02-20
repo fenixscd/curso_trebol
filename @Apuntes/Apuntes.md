@@ -34,19 +34,19 @@ Importante hay que tener las image al mismo tamaños que la vamos a mostrar, por
 Si un conteneror contiene elementos flotantes tendremos que ponerlo *overflow:auto*.
 
 ## Plugins para Brakets
--*Emmet* -> Para añadir codigo html.
--*Beautiful* -> Formatea el codigo.
--*Everyscrud* -> Insertar etiquetas en texto.
--*Brackets tree icons* -> Pone iconos al lado de los archivos dependiendo del tipo.
--*jquinter* -> Para que sugiera las etiqutas, id y class de los archivos html en el archivo CSS.
--*Autoprefixer* -> Para que añada los prefijos necesarios para los diferentes navegadores.
+-    *Emmet* -> Para añadir codigo html.
+-    *Beautiful* -> Formatea el codigo.
+-    *Everyscrud* -> Insertar etiquetas en texto.
+-    *Brackets tree icons* -> Pone iconos al lado de los archivos dependiendo del tipo.
+-    *jquinter* -> Para que sugiera las etiqutas, id y class de los archivos html en el archivo CSS.
+-    *Autoprefixer* -> Para que añada los prefijos necesarios para los diferentes navegadores.
 
 
 ## Extensiones para Google Chrome
--*Gred ruels* -> Indica las medidas y los tamaños.
--*web developer* -> Entre otras cosas nos permite quitar las CSS.
--*Whatfont Chrome* ->Para inspeccionar tipografias.
--*Firebug* -> Para hacer debuguer.
+-    *Gred ruels* -> Indica las medidas y los tamaños.
+-    *web developer* -> Entre otras cosas nos permite quitar las CSS.
+-    *Whatfont Chrome* ->Para inspeccionar tipografias.
+-    *Firebug* -> Para hacer debuguer.
 
 ## Extensiones para Firefox
 -*measurel* -> Para poder medir
