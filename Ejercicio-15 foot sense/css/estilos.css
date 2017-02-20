@@ -12,17 +12,37 @@
 
 *{
     font-family: "TisaPro";
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
+
+/********* MENU ******************/
+
+#logo {
+    background-image: url(../img/food-sense.png);
+}
+
+
+
+
+
 #menu ul {
-    
+    list-style: none;
 }
 
 #menu ul li {
     float: left;
 }
 
-#munu ul li a {
+
+
+#enlace1 {
+    background-color: url(ruat del icono)
+}
+
+#menu ul li a{
     background-color: burlywood;
     text-decoration: none;
     background-repeat: no-repeat;
@@ -35,8 +55,5 @@
     padding: 32px 36px 0px;
 }
 
-#enlace1 {
-    background-color: url(ruat del icono)
-}
-
-
+/***************************/
+/***************************/
