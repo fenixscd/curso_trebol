@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'TisaPro';
+	src: url('../fonts/TisaPro-Regular.eot');
+	src: url('../fonts/TisaPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/TisaPro-Regular.woff2') format('woff2'),
+		url('../fonts/TisaPro-Regular.woff') format('woff'),
+		url('../fonts/TisaPro-Regular.ttf') format('truetype'),
+		url('../fonts/TisaPro-Regular.svg#TisaPro-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*{
+    font-family: "TisaPro";
+}
+
+
+h1 {
+    
+}

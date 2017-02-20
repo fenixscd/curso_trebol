@@ -82,7 +82,7 @@ Revisar [http://blog.hostdime.com.co/8-increibles-complementos-para-brackets/](C
 -    <https://wetransfer.com/> -> Para transferir archivos a traves de una URL.
 -    <https://draeton.github.io/stitches/> -> Para crear Sprite. (Varias imagenes en una misma imagen y mostrar uno o otra dependiendo de las cordenadas).
 -    <http://fontawesome.io/> -> Fuente de iconos.
--    <https://transfonter.org/> -> Para convertir fuentes de formato ttf a fuentes para la web.
+-    <https://transfonter.org/> -> Para convertir fuentes de formato ttf a fuentes para la web, las fuentes se enlaza en el archivo css.
 
 ## Paginas de internet
 -    <https://dinahosting.com/> -> Servidor.
