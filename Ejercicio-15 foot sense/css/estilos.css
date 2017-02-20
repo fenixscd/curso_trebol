@@ -17,18 +17,36 @@
     box-sizing: border-box;
 }
 
+.centrado {
+    width: 990px;
+    height: 655px;
+    background-color: aqua;
+}
 
 /********* MENU ******************/
 
+#menu {
+    overflow: hidden;
+    background-color: red;
+}
+
 #logo {
+    display: block;
+    float: left;
     background-image: url(../img/food-sense.png);
+    width: 122px;
+    height: 122px;
+    background-position: 1px 1px;
+    text-indent: 9999px;
+    color: transparent;
+    font-size: 0px;
+    
 }
 
 
 
-
-
 #menu ul {
+    float: right;
     list-style: none;
 }
 
@@ -39,8 +57,26 @@
 
 
 #enlace1 {
-    background-color: url(ruat del icono)
+    background-image: url(../img/nav-tastemakers.png);
 }
+
+#enlace2 {
+    background-image: url(../img/nav-blog.png);
+}
+
+#enlace3 {
+    background-image: url(../img/nav-alist.png);
+}
+
+#enlace4 {
+    background-image: url(../img/nav-contribute.png);
+}
+
+#enlace5 {
+    background-image: url(../img/nav-about.png);
+}
+
+
 
 #menu ul li a{
     background-color: burlywood;
