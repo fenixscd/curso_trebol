@@ -51,15 +51,8 @@ body {
     background-color: white;
     border-right: 1px solid greenyellow;
     height: 20px;
-}
+}   
     
-    
-    
-
-    /*transition:[Propiedad CSS] [Duración] [tipo de animación] [Retardo];*/
-   
-/*    transition: all 0.5s ease 0s;*/
-
 #brouse {
     background-image: url(../img/browse.gif);
     background-repeat: no-repeat;
@@ -82,4 +75,35 @@ body {
     background-image: url(../img/account.gif);
     background-repeat: no-repeat;
     background-position: center 10px; 
+}
+
+
+
+/*******  Menu lateral  **********/
+
+
+#menu_lateral{
+    background-color: aquamarine;
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 30px;
+}
+
+#menu_lateral ul {
+    list-style: none;
+}
+
+#menu_lateral ul li{
+    
+}
+
+#menu_lateral ul li a{
+    text-decoration: none;
+    background-color: darkcyan;
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    margin-top: 12px;
 }
