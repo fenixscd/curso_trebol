@@ -123,6 +123,7 @@ body {
 }
 
 .paginas{
+    transition: all 0.5s ease 0s;
     position: absolute;
     background-color: rebeccapurple;
     width: 100%;
@@ -145,11 +146,19 @@ body {
 
 
 #uno {
-    opacity: 0; /*Para ocular*/
+    opacity: 1; /*Para ocular*/
 }
 
 #dos{
     opacity: 0; /*Para ocular*/
+}
+
+#uno:target {
+    opacity: 1;
+}
+
+#dos:target {
+    opacity: 1;
 }
 
 
