@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-
+    box-sizing: content-box; /*Por defecto*/
 }
 body {
     background-color: antiquewhite;
@@ -11,21 +10,44 @@ body {
 #menu {
     background-color: white;
     position: fixed;
-    display: block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid greenyellow;
 }
 
 #menu ul{ 
+    list-style: none;
+}
+
+#menu ul li{ 
+    float: left;
+    border-right: 1px solid greenyellow;
+    width: 120px;
+    height: 50px;
+}
+
+ #menu ul li a{ 
+     transition: all 0.2s ease 0s;
+     text-decoration: none;
+     display: block;
+     padding-top: 50px;
+    background-color: #e5b9b9;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    height: 0;
+    overflow: hidden; /*Oculta lo que sobra*/
+/*
+    display: block;
     
-}
-
-#menu li{ 
-
-}
-
- #menu li a{ 
-
+    padding: 15px;
+*/
 }   
-    
+
+#menu ul li a:hover{
+    background-color: white;
+    border-right: 1px solid greenyellow;
+    height: 20px;
+}
     
     
     
