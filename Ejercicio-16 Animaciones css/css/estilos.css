@@ -3,31 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 
-
+}
+body {
+    background-color: antiquewhite;
 }
 
-body{
-    font-family: sans-serif;
+#menu {
+    background-color: white;
+    position: fixed;
+    display: block;
 }
 
-#caja {
-    -webkit-transition: all 2s cubic-bezier(0, .8, .97, .17) 1s;
-    transition: all 2s cubic-bezier(0, .8, .97, .17) 1s;
-    background-color: red;
-    width: 250px;
-    height: 250px;
+#menu ul{ 
     
 }
 
-#caja:hover {
-  
-    background-color: yellow;
-       width: 550px;
-    height: 550px;
- 
-    
+#menu li{ 
+
 }
 
+ #menu li a{ 
+
+}   
+    
+    
+    
+    
 
     /*transition:[Propiedad CSS] [Duración] [tipo de animación] [Retardo];*/
    
