@@ -10,7 +10,7 @@ Despues de un elemento flotado si tenemos un elemento que queremos de en la para
 -   `Ctrl+Ç` -> Para comentar varias lineas.
 -   `Corl+e` -> Encima de la etiqueta que queremos poner reglas CSS se abre una subbentana para añadir la regla.
 -   `Alt+Shif+flechas` -> Para agragar multiples cursores.
--   `bd+` -> Atajo para generar bordes.
+
 
 ### Sprite imagenes
 En CSS nos referimos a sprite para hacer alusión a un conjunto de imágenes diferentes agrupadas todas ellas en una misma imagen.
@@ -40,8 +40,14 @@ Importante hay que tener las image al mismo tamaños que la vamos a mostrar, por
 -   `h1+a` -> Se refiere a la `a` justo despues del `h1`.
 -   `li:nth-child(1){}` -> Afecta solo al primer elemento de la linea.
 -   `background-position: <posicion>` -> Posicion del fondo.
+-   `box-sizing: border-box;` -> el padding y border de ese elemento no incrementan su ancho;
+-   `clear : top | right |boton | left` -> No deja que ningun elemento en la posición indicada.
+-   `overflow : hidden` -> Para poder envolver los elementos flotados que tiene un div.
 
--   `text-indent` ->Sangrado para la primera linea.
+Hacer desaparecer que un elemento no se vea.
+-   `text-indent : 9999` ->Sangrado para la primera linea.
+-   `color : transparent` -> Para que el texto sea transparente.
+-   `font-size : 0` -> Tamaño de la fuente.
 
 #### Tablas
 -   `border-collapse: collapse` -> Para que solo aparezca un borde;
@@ -71,6 +77,7 @@ Revisar [http://blog.hostdime.com.co/8-increibles-complementos-para-brackets/](C
 -   *web developer* -> Entre otras cosas nos permite quitar las CSS.
 -   *Whatfont Chrome* ->Para inspeccionar tipografias.
 -   *Firebug* -> Para hacer debuguer.
+-   *ColorPick* -> Para capturar colores enlace [Chrome](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg)
 
 ## Extensiones para Firefox
 -   *measurel* -> Para poder medir
@@ -82,18 +89,28 @@ Revisar [http://blog.hostdime.com.co/8-increibles-complementos-para-brackets/](C
 -   <https://wetransfer.com/> -> Para transferir archivos a traves de una URL.
 -   <https://draeton.github.io/stitches/> -> Para crear Sprite. (Varias imagenes en una misma imagen y mostrar uno o otra dependiendo de las cordenadas).
 -   <http://fontawesome.io/> -> Fuente de iconos.
+-   <https://color.adobe.com/es/create/color-wheel/> -> Te dice la palenta de colores de una imagen (Crear desde imagen).
+-   <http://www.cssmatic.com/> -> Herramientas para crear efectos en css.
 
 ## Paginas de internet
+-   wordpress-wpo -> Mejorar el rendimiento de wordpress.
 -   <https://dinahosting.com/> -> Servidor.
 -   <https://archive.org/> -> Pagina que se dedica hacer copias de pajians de internet.
 -   <https://fonts.google.com/> -> Para colocar fuentes de grateis de google.
 -   <https://www.fontsquirrel.com/> -> Tipografias gratis y podemos subir una tipografia y la transforma para todos los navegadores.
 -   <http://caniuse.com/> -> Compatibilidad con los navegadorea
 -   <https://color.adobe.com/es/create/color-wheel/> -> Plicación de adobe que tedice los colores que se han utilizado en una imagen.
+-   <https://mailrelay.com/es#> -> Para hacer campañas de Mailing.
+
 
 
 
 ## Emmet
+
+<http://docs.emmet.io/cheat-sheet/> Relacion de comandos para Emmet
+
+-   `bd+` -> Atajo para generar bordes. `border:1px solid #000;`
+-   `bg+` -> Para el fondo. `background:#fff url() 0 0 no-repeat;`
 
 `a.boton[#]*5`
 ~~~
