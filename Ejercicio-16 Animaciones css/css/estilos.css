@@ -8,6 +8,7 @@ body {
 }
 
 #menu {
+    z-index: 100;
     background-color: white;
     position: fixed;
     width: 100%;
@@ -83,11 +84,12 @@ body {
 
 
 #menu_lateral{
+    z-index: 101;
     background-color: aquamarine;
 /*    width: 50px;*/
     position: fixed;
     top: 50%;
-    left: 30px;
+    left: 24px;
 }
 
 #menu_lateral ul {
@@ -111,9 +113,43 @@ body {
 /******* contenido ************/
 
 .imagen {
+    float: left;
     background-image: url(../img/iphone.png);
     background-repeat: no-repeat;
     width: 185px;
     height: 445px;
+    padding: 165px 73px 184px 97px;
+    background-color: blue;
 }
+
+.paginas{
+    position: absolute;
+    background-color: rebeccapurple;
+    width: 100%;
+    height: 100%;
+    top 0px;
+    left: 0px;
+}
+
+.centrar_iphone{
+    background-color: chocolate;
+    width: 750px;
+    margin: 0 auto;
+}
+
+.texto {
+    float: left;
+    margin-top: 300px;
+    margin-left: 20px;
+}
+
+
+#uno {
+    opacity: 0; /*Para ocular*/
+}
+
+#dos{
+    opacity: 0; /*Para ocular*/
+}
+
 
