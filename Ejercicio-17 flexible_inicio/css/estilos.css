@@ -77,7 +77,8 @@ body {
     .bloque {
         background-color: #ff004e;
         float: none;
-        height: none;
+        width: 100%;
+        height: auto;
         
     }
 }
