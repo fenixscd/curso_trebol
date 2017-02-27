@@ -4,3 +4,34 @@
     box-sizing: border-box;
     /*box-sizing: content-box; Por defecto*/
 }
+
+#caja {
+    margin: 20px 20px 20px 20px;
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/bowl-strip2.png);
+    border-radius: 81px;
+}
+
+#caja:hover{
+    background-color: aqua;
+    cursor: pointer; /*Para que aparezca la mano*/
+/*    background-image: url(../img/bowl-strip2.png);*/
+}
+
+@-webkit-keyframes identifier {
+    from {  }
+    to {  }
+}
+@-o-keyframes identifier {
+    from {  }
+    to {  }
+}
+@-moz-keyframes identifier {
+    from {  }
+    to {  }
+}
+@keyframes bol {
+    from { background-position: 0px 0px }
+    to { background-position: 0px -1200px }
+}
