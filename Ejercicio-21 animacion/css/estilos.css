@@ -18,7 +18,7 @@
     cursor: pointer; /*Para que aparezca la mano*/
 /*    background-image: url(../img/bowl-strip2.png);*/
     animation-name: bol;
-    animation-duration: 0.9s;
+    animation-duration: 0.02s;
     /*animation-delay: 0.5s; Tiempo que tarda en iniciar la animacion*/
     animation-timing-function: steps(8);
     animation-iteration-count: infinite;

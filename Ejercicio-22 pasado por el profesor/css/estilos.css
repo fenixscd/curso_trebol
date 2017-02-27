@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cajon {
+    width: 808px;
+    height: 588px;
+    animation-name: fondo;
+    animation-duration: 20s;
+    /*    animation-delay: 2s;*/
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-timing-function: ease;
+    position: relative;
+    animation-play-state: running;
+    background-image: url(../img/fondo.png);
+    background-position: center 0px;
+}
+
+.cajon:hover {
+    animation-play-state: running;
+}
+
+
+/*
+@keyframes animao {
+    from { background-color: royalblue; }
+    to { background-color: red; }
+}*/
+
+@keyframes fondo {
+    
+/*    el 1 */
+    0% {
+        background-position: center 0px;
+        opacity: 1;
+    }
+    15% {
+        background-position: center 0px;
+        opacity: 1;
+    }
+    20% {
+        background-position: center 0px;
+        opacity: 0;
+    }
+    
+  /* cambio la posicion   el 2 */  
+    21% {
+        background-position: center -588px;
+        opacity: 0;
+    }
+    25% {
+        background-position: center -588px;
+        opacity: 1;
+    }
+    45% {
+        background-position: center -588px;
+        opacity: 0;
+    }
+    
+  /*    el 3 */  
+    46% {
+        background-position: center -1176px;
+        opacity: 0;
+    }
+    50% {
+        background-position: center -1176px;
+        opacity: 1;
+    }
+    65% {
+        background-position: center -1176px;
+        opacity: 0;
+    }
+    
+    /*    el 4 */
+    70% {
+        background-position: center -1176px;
+        opacity: 0;
+    }
+    71% {
+        background-position: center -1764px;
+        opacity: 0;
+    }
+    75% {
+        background-position: center -1764px;
+        opacity: 1;
+    }
+    
+ 
+    90% {
+        background-position: center -1764px;
+        opacity: 1;
+    }
+    95% {
+        background-position: center -1764px;
+        opacity: 0;
+    }
+    
+    
+     /*    el 0 */  
+    96% {
+        background-position: center 0px;
+        opacity: 0;
+    }
+    100% {
+        background-position: center 0px;
+        opacity: 1;
+    }
+    
+}
+
+
+
+@keyframes movil {
+    
+/*    el 1 */
+    0% {
+        background-position:0px center ;
+        opacity: 1;
+    }
+    15% {
+        background-position:0px center ;
+        opacity: 1;
+    }
+    20% {
+        background-position:0px center ;
+        opacity: 0;
+    }
+    
+  /* cambio la posicion   el 2 */  
+    21% {
+        background-position:-91px center;
+        opacity: 0;
+    }
+    25% {
+        background-position:-91px center;
+        opacity: 1;
+    }
+    45% {
+        background-position:-91px center;
+        opacity: 0;
+    }
+    
+  /*    el 3 */  
+    46% {
+        background-position:-182px center;
+        opacity: 0;
+    }
+    50% {
+        background-position:-182px center;
+        opacity: 1;
+    }
+    65% {
+        background-position:-182px center;
+        opacity: 0;
+    }
+    
+    /*    el 4 */
+    70% {
+        background-position:-182px center ;
+        opacity: 0;
+    }
+    71% {
+        background-position:-273px center;
+        opacity: 0;
+    }
+    75% {
+        background-position:-273px center ;
+        opacity: 1;
+    }
+    
+ 
+    90% {
+        background-position:-273px center;
+        opacity: 1;
+    }
+    95% {
+        background-position:-273px center;
+        opacity: 0;
+    }
+    
+    
+     /*    el 0 */  
+    96% {
+        background-position:0px center ;
+        opacity: 0;
+    }
+    100% {
+        background-position:0px center ;
+        opacity: 1;
+    }
+    
+}
+.contenido {
+    
+    width: 91px;
+    height: 160px;
+    animation-name: movil;
+    animation-duration: 20s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-timing-function: ease;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    animation-play-state: running;
+    background-image: url(../img/contenido-02.png);
+    background-repeat: no-repeat;
+    background-position:0px center ;
+    
+}
