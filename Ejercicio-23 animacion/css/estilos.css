@@ -4,3 +4,27 @@
     box-sizing: border-box;
     /*box-sizing: content-box; Por defecto*/
 }
+
+#caja {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    animation-name: movimiento;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes movimiento {
+    0% {
+        transform: translateX(0px);
+    }
+    
+    50% {
+        transform: translateX(500px);
+    }
+    
+    100% {
+        transform: translateX(0px);
+    }
+}
