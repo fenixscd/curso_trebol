@@ -3,4 +3,30 @@
     padding: 0;
     box-sizing: border-box;
     /*box-sizing: content-box; Por defecto*/
+    text-decoration: none;
 }
+
+#imagenes img {
+/*    display: none;
+    opacity: 0;*/
+    width: 100%;
+    height: auto;
+}
+
+#columnaIzg, #columnaDe{
+    float: left;
+    width: 50%;
+    background-color: beige;
+    height: 800px;
+}
+
+.tamanoG {
+    position: relative;
+}
+
+.tamanoP {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
