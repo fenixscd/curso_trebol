@@ -5,6 +5,13 @@
     /*box-sizing: content-box; Por defecto*/
 }
 
+#contiene {
+    width: 600px;
+    height: 600px;
+    margin: 50px 50px 50px 50px;
+    background-color: azure;
+}
+
 #caja {
     width: 100px;
     height: 100px;
@@ -13,6 +20,7 @@
     animation-duration: 5s;
     animation-iteration-count: infinite;
     border-radius: 50px;
+    margin: 10px 10px 10px 10px;
 }
 
 
@@ -22,8 +30,18 @@
                    translateY(0px);
     }
     
+    25% {
+        transform: translateX(500px)
+                   translateY(0px);
+    }
+        
     50% {
         transform: translateX(500px)
+                   translateY(500px);
+    }
+    
+    75% {
+        transform: translateX(0px)
                    translateY(500px);
     }
     
