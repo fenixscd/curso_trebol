@@ -98,10 +98,6 @@ Revisar [http://blog.hostdime.com.co/8-increibles-complementos-para-brackets/](C
 -    <https://draeton.github.io/stitches/> -> Para crear Sprite. (Varias imagenes en una misma imagen y mostrar uno o otra dependiendo de las cordenadas).
 -    <http://fontawesome.io/> -> Fuente de iconos.
 -    <https://transfonter.org/> -> Para convertir fuentes de formato ttf a fuentes para la web, las fuentes se enlaza en el archivo css.
-<<<<<<< HEAD
-
-=======
->>>>>>> 487d1ff13e6d995e287d999d570da85dee27bd5e
 -   Artiseteer ->Para hacer plantillas.
 -   Adobe edge ->Para crear paginas de manera facil (descontinuado).
 -   <https://wetransfer.com/> -> Para transferir archivos a traves de una URL.
@@ -109,11 +105,7 @@ Revisar [http://blog.hostdime.com.co/8-increibles-complementos-para-brackets/](C
 -   <http://fontawesome.io/> -> Fuente de iconos.
 -   <https://color.adobe.com/es/create/color-wheel/> -> Te dice la palenta de colores de una imagen (Crear desde imagen).
 -   <http://www.cssmatic.com/> -> Herramientas para crear efectos en css.
-<<<<<<< HEAD
-=======
-
 -   <http://mediaqueri.es/> Ejemplos de paginas responsis
->>>>>>> 487d1ff13e6d995e287d999d570da85dee27bd5e
 
 ## Paginas de internet
 -   wordpress-wpo -> Mejorar el rendimiento de wordpress.
