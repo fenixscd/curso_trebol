@@ -12,19 +12,23 @@
     animation-name: movimiento;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    border-radius: 50px;
 }
 
 
 @keyframes movimiento {
     0% {
-        transform: translateX(0px);
+        transform: translateX(0px)
+                   translateY(0px);
     }
     
     50% {
-        transform: translateX(500px);
+        transform: translateX(500px)
+                   translateY(500px);
     }
     
     100% {
-        transform: translateX(0px);
+        transform: translateX(0px)
+                   translateY(0px);
     }
 }
