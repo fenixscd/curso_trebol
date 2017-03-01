@@ -1,9 +1,25 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /*box-sizing: content-box; Por defecto*/
 }
+
+
+.centrado {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+
+/***********************************************/
+/***********************************************/
+/***********************************************/
 
 #contiene {
     width: 600px;
@@ -12,7 +28,7 @@
     background-color: azure;
 }
 
-#caja {
+#cajaDos {
     width: 100px;
     height: 100px;
     background-color: aqua;
@@ -49,4 +65,137 @@
         transform: translateX(0px)
                    translateY(0px);
     }
+}
+
+/***********************************************/
+/***********************************************/
+/***********************************************/
+
+
+#caja {
+    margin: 20px 20px 20px 20px;
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/bowl-strip2.png);
+    border-radius: 81px;
+}
+
+#caja:hover{
+    background-color: aqua;
+    cursor: pointer; 
+}
+
+
+/***********************************************/
+/***********************************************/
+/***********************************************/
+
+h1 {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+#botones {
+    display: inline-block;
+    text-align: center;
+/*    overflow: hidden;*/
+    background-color: bisque;
+    
+/*
+    width: 800px;
+    text-align: center;
+*/
+}
+
+.boton {
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    border-radius: 81px;
+}
+
+.boton:hover{
+    background-color: aqua;
+    cursor: pointer; 
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    
+}
+
+@keyframes creative {
+    from { background-position: 0px 0px }
+    to { background-position: 0px -600px }
+}
+
+#creative {
+    background-image: url(../img/cake-strip.png);
+    animation-name: creative;
+    
+}
+
+#creative:hover {
+    background-image: url(../img/cake-strip.png);
+    animation-timing-function: steps(4);
+}
+/*************/
+
+@keyframes digital {
+    from { background-position: 0px 0px }
+    to { background-position: 0px -900px }
+}
+
+#digital {
+    background-image: url(../img/oven-strip.png);
+    animation-name: digital;
+}
+
+#digital:hover {
+    background-image: url(../img/oven-strip.png);
+    animation-timing-function: steps(6);
+}
+/******/
+
+
+@keyframes development {
+    from { background-position: 0px 0px }
+    to { background-position: 0px -1200px }
+}
+
+#development {
+    background-image: url(../img/bowl-strip2.png);
+    animation-name: development;
+}
+
+#development:hover {
+    background-image: url(../img/bowl-strip2.png);
+    animation-timing-function: steps(8);
+}
+
+/*******/
+
+
+@keyframes emerging {
+    from { background-position: 0px 0px }
+    to { background-position: 0px -600px }
+}
+
+#emerging {
+    background-image: url(../img/cupcake-strip.png);
+    animation-name: emerging;
+}
+
+#emerging:hover {
+    background-image: url(../img/cupcake-strip.png);
+    animation-timing-function: steps(4);
+}
+
+
+
+
+
+#emerging {
+    background-image: url(../img/cupcake-strip.png);
+    animation-timing-function: steps(8);
 }
