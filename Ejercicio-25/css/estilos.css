@@ -4,3 +4,9 @@
     box-sizing: border-box;
     /*box-sizing: content-box; Por defecto*/
 }
+
+#target {
+    margin: 0 auto;
+    background-color: aqua;
+    width: 500px;
+}
