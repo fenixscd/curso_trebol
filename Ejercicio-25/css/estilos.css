@@ -10,3 +10,15 @@
     background-color: aqua;
     width: 500px;
 }
+
+#manolo {
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: beige;
+}
+
+
+.rojo {
+    background-color: rebeccapurple !important;
+}

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Documento sin título</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+	
+	
+})
+
+
+
+
+</script>
+
+
+
+
+<style type="text/css">
+body {
+	font-size: 13px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+.boton {
+	background: url("img/plus.png") no-repeat scroll 50% center #F8941D;
+	display: block;
+	height: 52px;
+	width: 52px;
+	cursor: pointer;
+	padding-top: 0px;
+}
+.botonActivo {
+	background: url("img/minus.png") no-repeat scroll 50% center #F8941D !important;
+}
+.boton p {
+	display: block;
+	color: #333232;
+	font-size: 14px;
+	padding: 16px 18px 0px 72px;
+	position: relative;
+	text-transform: uppercase;
+	height: 52px;
+	width: 480px;
+	margin-top: 0px;
+}
+#acordeon {
+	position: relative;
+	width: 570px;
+}
+.titulo {
+	background: none repeat scroll 0 0 #F3F3F3;
+	height: 52px;
+}
+.contenido {
+	height: 141px;
+	background-color: #F2F2F2;
+	padding-left: 72px;
+	padding-top: 25px;
+	padding-right: 38px;
+	display: none;
+}
+.elemento {
+	border: #8D8D8D 1px solid;
+	margin-bottom: 7px;
+	padding-top: 0px;
+}
+.active {
+	color: #44B2C1 !important;
+	font-weight: bold !important;
+}
+</style>
+</head>
+
+<body>
+<div id="acordeon">
+  <div class="elemento" id="bloque1">
+    <div class="titulo">
+      <div class="boton botonActivo" id="boton1">
+        <p class="active">elemento 1</p>
+      </div>
+    </div>
+    <div class="contenido">Morbi nunc odio, gravec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</div>
+  </div>
+  <div class="elemento" id="bloque2">
+    <div class="titulo">
+      <div class="boton" id="boton2">
+        <p>elemento 2</p>
+      </div>
+    </div>
+    <div class="contenido">Morbi nunc odio, gravec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</div>
+  </div>
+  <div class="elemento" id="bloque3">
+    <div class="titulo">
+      <div class="boton" id="boton3">
+        <p>elemento 3</p>
+      </div>
+    </div>
+    <div class="contenido">Morbi nunc odio, gravec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</div>
+  </div>
+</div>
+</body>
+</html>

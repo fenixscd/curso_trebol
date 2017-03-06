@@ -3,7 +3,8 @@
 
 $(document).ready(function($){
     $("#target").click(function() {
-        console.log("hola..");
+        console.log("rojo");
+        $("#manolo").addClass( "rojo" );
     });
 
 

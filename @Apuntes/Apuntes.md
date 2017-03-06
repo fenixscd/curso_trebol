@@ -117,7 +117,14 @@ Revisar [http://blog.hostdime.com.co/8-increibles-complementos-para-brackets/](C
 -   <https://color.adobe.com/es/create/color-wheel/> -> Plicación de adobe que tedice los colores que se han utilizado en una imagen.
 -   <https://mailrelay.com/es#> -> Para hacer campañas de Mailing.
 
+## JavaScript
 
+Se carga cuando esta el documento cargado.
+~~~
+$(document).ready(function($){
+    alert("Hola caracola....");
+});
+~~~
 
 
 ## Emmet
