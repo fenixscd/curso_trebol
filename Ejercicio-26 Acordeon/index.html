@@ -11,37 +11,45 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-            $("#boton1").click(function () {
-                $("#bloque1 p").addClass( "active" );
-                $("#bloque2 p").removeClass( "active");
-                $("#bloque3 p").removeClass( "active");
+            $("#boton1").click(function (quien) {
+                $("#boton1 p").addClass( "active" );
+                $("#boton2 p").removeClass( "active");
+                $("#boton3 p").removeClass( "active");
+                
                 $("#boton1").addClass("botonActivo" );
                 $("#boton2").removeClass("botonActivo");
                 $("#boton3").removeClass("botonActivo");
+                
                 $("#bloque1 .contenido").slideDown();
                 $("#bloque2 .contenido").slideUp();
                 $("#bloque3 .contenido").slideUp();
             });
 
             $("#boton2").click(function () {
-                $("#bloque1 p").removeClass( "active");
-                $("#bloque2 p").addClass("active");
-                $("#bloque3 p").removeClass("active");
+                $("#boton1 p").removeClass( "active");
+                $("#boton2 p").addClass("active");
+                $("#boton3 p").removeClass("active");
+                
                 $("#boton1").removeClass("botonActivo");
                 $("#boton2").addClass("botonActivo");
                 $("#boton3").removeClass( "botonActivo");
+                
                 $("#bloque1 .contenido").slideUp();
                 $("#bloque2 .contenido").slideDown();
                 $("#bloque3 .contenido").slideUp();
+                
+                console.log($);
             });
 
             $("#boton3").click(function () {
-                $("#bloque1 p").removeClass("active");
-                $("#bloque2 p").removeClass("active");
-                $("#bloque3 p").addClass("active");
+                $("#boton1 p").removeClass("active");
+                $("#boton2 p").removeClass("active");
+                $("#boton3 p").addClass("active");
+                
                 $("#boton1").removeClass("botonActivo");
                 $("#boton2").removeClass("botonActivo");
                 $("#boton3").addClass("botonActivo");
+                
                 $("#bloque1 .contenido").slideUp();
                 $("#bloque2 .contenido").slideUp();
                 $("#bloque3 .contenido").slideDown();
@@ -113,9 +121,11 @@
             font-weight: bold !important;
         }
         
+/*
         #bloque1 .contenido {
             display: block;
         }
+*/
     </style>
 
 
@@ -126,8 +136,8 @@
     <div id="acordeon">
         <div class="elemento" id="bloque1">
             <div class="titulo">
-                <div class="boton botonActivo" id="boton1">
-                    <p class="active">elemento 1</p>
+                <div class="boton" id="boton1">
+                    <p>elemento 1</p>
                 </div>
             </div>
             <div class="contenido">Morbi nunc odio, gravec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</div>
