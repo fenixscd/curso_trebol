@@ -12,16 +12,39 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $("#boton1").click(function () {
-                console.log("Clic boton1");
+                $("#bloque1 p").addClass( "active" );
+                $("#bloque2 p").removeClass( "active");
+                $("#bloque3 p").removeClass( "active");
+                $("#boton1").addClass("botonActivo" );
+                $("#boton2").removeClass("botonActivo");
+                $("#boton3").removeClass("botonActivo");
+                $("#bloque1 .contenido").slideDown();
+                $("#bloque2 .contenido").slideUp();
+                $("#bloque3 .contenido").slideUp();
             });
 
             $("#boton2").click(function () {
-                console.log("Clic boton2");
+                $("#bloque1 p").removeClass( "active");
+                $("#bloque2 p").addClass("active");
+                $("#bloque3 p").removeClass("active");
+                $("#boton1").removeClass("botonActivo");
+                $("#boton2").addClass("botonActivo");
+                $("#boton3").removeClass( "botonActivo");
+                $("#bloque1 .contenido").slideUp();
                 $("#bloque2 .contenido").slideDown();
+                $("#bloque3 .contenido").slideUp();
             });
 
             $("#boton3").click(function () {
-                console.log("Clic boton3");
+                $("#bloque1 p").removeClass("active");
+                $("#bloque2 p").removeClass("active");
+                $("#bloque3 p").addClass("active");
+                $("#boton1").removeClass("botonActivo");
+                $("#boton2").removeClass("botonActivo");
+                $("#boton3").addClass("botonActivo");
+                $("#bloque1 .contenido").slideUp();
+                $("#bloque2 .contenido").slideUp();
+                $("#bloque3 .contenido").slideDown();
             });
         })
     </script>
