@@ -4,3 +4,40 @@
     box-sizing: border-box;
     /*box-sizing: content-box; Por defecto*/
 }
+
+ul {
+  list-style: none;
+}
+
+#peque li{
+    display: inline-block;
+}
+
+#grande li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+/*
+#grande li:first-child{
+    display: block;
+}
+*/
+
+#grande li:nth-child(1){
+    display: block;
+}
+
+.centrado {
+    margin: 0 auto;
+    width: 631px;
+    position:relative;
+    
+}
+
+#fotosG {
+    height: 490px;
+        
+}
