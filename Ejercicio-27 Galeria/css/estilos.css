@@ -20,7 +20,7 @@ ul {
     
 }
 
-#peque li:hover{
+.activo{
     
 /*    border: 1px solid #000;*/
     border-bottom: 4px solid #000;

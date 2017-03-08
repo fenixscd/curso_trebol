@@ -5,9 +5,11 @@ $(document).ready(function($){
     $(".botones").click(function() {
         $("#grande li").fadeOut("slow");
         $("#"+this.id+"G").fadeIn("slow");
+        
+        $(".botones").removeClass("activo");
+        $(this).addClass("activo");
     });
- 
-    
+
 });
 
 
