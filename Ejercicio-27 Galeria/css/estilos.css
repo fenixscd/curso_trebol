@@ -9,8 +9,22 @@ ul {
   list-style: none;
 }
 
+#peque{
+    display: flex;
+    justify-content: space-between;
+}
+
 #peque li{
     display: inline-block;
+    margin-right: 3px;
+    
+}
+
+#peque li:hover{
+    
+/*    border: 1px solid #000;*/
+    border-bottom: 4px solid #000;
+    
 }
 
 #grande li{
