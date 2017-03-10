@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>formulario</title>
+</head>
+<style>
+    body {
+        font-family: sans-serif;
+    }
+    
+    input {
+        display: block;
+    }
+</style>
+
+<body>
+
+
+    <form>
+
+
+        <input type="button" value="soy un boton amiguete">
+        <input type="submit" value="soy un boton amiguete">
+        <input type="submit" value="soy un boton amiguete con imagen">
+        <button type="submit">Enviar</button>
+
+        <br>
+        <br>
+        <br>
+        <datalist></datalist>
+
+        <input type="submit" value="Pulsar <img src='img/visto.png' />">
+
+        <button type="submit">Pulsar <img src='img/visto.png' /></button>
+        <br>
+        <br>
+        <br>
+        <input type="reset" value="borrar">
+        <input type="checkbox" value="azul">
+        <input type="radio" value="azul" name="hombre">
+        <input type="file" value="subir">
+        <input type="hidden" value="oculto">
+        <input type="password" value="" placeholder="escribe tu contraseña">
+        <input type="image" value="imagen" src="img/ajax.gif">
+
+        <br>
+        <br>
+        <br>
+        <br>
+idiomas
+   <datalist id="languages">
+      <option value="inglés">
+      <option value="frances">
+      <option value="español">
+      <option value="chino">
+
+</datalist>
+        
+        <input type="text" list="languages" placeholder="escribe tu idioma" >
+        
+       <br> 
+       <br> 
+       <br> 
+       <br> 
+        
+         
+
+        <input type="range" min="0" max="10" value="3" step="1" id="mislider" list="lista">
+
+        <input type="color" value="color">
+
+
+        <input type="range" name="points" min="0" max="10" value="2"> Search Google:
+        <input type="search" name="googlesearch">
+
+        <input type="time" name="usr_time">
+        <input type="date" value="12">
+        <input type="datetime-local" value="hora">
+        <input type="week" name="week_year">
+        <input type="month" name="bdaymonth">
+        <input type="number" name="points" min="0" max="100" step="10" value="30">
+        <input type="number" name="quantity" min="1" max="5">
+
+
+        <input type="range" name="ageInputName" id="ageInputId" value="24" min="1" max="100" oninput="ageOutputId.value = ageInputId.value">
+        <output name="ageOutputName" id="ageOutputId">24</output>
+        <br>
+
+        <select>
+            <optgroup label="Coches suizos">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+            </optgroup>
+            <optgroup label="Coches alemanes">
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </optgroup>
+        </select>
+
+
+
+
+
+
+
+    </form>
+
+
+
+    <form method="POST" oninput="resultado.value=parseInt(valor1.value)+parseInt(valor2.value)">
+        <input type="number" id="valor1" value="0"> +
+        <input type="number" id="valor2" value="0"> =
+        <output name="resultado" for="valor1 valor2"></output>
+    </form>
+
+
+
+
+</body>
+
+</html>

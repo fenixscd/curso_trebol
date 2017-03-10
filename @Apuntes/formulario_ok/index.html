@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    
+    <script type="text/javascript" src="funciones.js"></script>
+</head>
+
+<body>
+<!--   <form action="proceso.php" method="post">-->
+    <form method="post" class="contacto">
+        <fieldset>
+            <div>
+                <label>Nombre:</label>
+                
+                <input type="text" class="nombre" name="nombre" id="nombre" placeholder="Escribe tu nombre y apellidos">
+           
+             </div>
+             
+            
+            <div>
+                <label>Email:</label>
+                <input type="email" class="email" name="email" placeholder="Pon tu email">
+
+            </div>
+            <div>
+                <label>Telefono:</label>
+                <input type="tel" class="telefono" name="telefono" placeholder="Escribe el teléfono" >
+            </div>
+            <div>
+                <label>Mensaje:</label>
+                <textarea cols="30" rows="5" class="mensaje" name="mensaje" placeholder="Lo que nos quieres decir" ></textarea>
+            </div>
+            
+            <label for="sexo" id="sexo">Sexo:</label>
+            <input type="radio" name="sexo" id="hombre" value="hombre">Hombre
+            <input type="radio" name="sexo" id="mujer" value="mujer">Mujer
+            <input type="radio" name="sexo" id="otro" value="otro">Otro
+            <br>
+            <br>
+
+       
+               <div>
+                <select name="color" id="color">
+                    <option value="0">Color favorito</option>
+                    <option value="blanco">Blanco</option>
+                    <option value="negro">Negro</option>
+                    <option value="rojo">Rojo</option>
+                </select>
+            </div>
+            
+            <div>
+                <input type="text" name="color_favorito" size="40" value="" placeholder="color favorito" readonly>
+            </div>
+
+            <div id="check">
+                <input type="checkbox" name="condiciones" id="condiciones" value="acepto">
+
+                <span>Acepto las condiciones</span>
+            </div>
+
+            <div class="ultimo">
+
+                <img src="img/ajax.gif" class="ajaxgif hide">
+
+
+                <div class="msg"></div>
+                <button class="boton_envio">Enviar Mensaje</button>
+               
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

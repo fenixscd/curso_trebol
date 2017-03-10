@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.sub-menu {
+    display: none;
+}
+
+#contenido ul {
+    background-color: blueviolet;
+}
+
+#contenido ul li {
+    background-color: red;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin: 0 5px;
+}
+
+#contenido ul li ul {
+    background-color: aqua;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    width: 234px;
+    
+}
+
+#contenido ul li ul li {
+  
+    margin: 0;
+    display: block;
+    
+    
+    
+}
+
+#contenido a {
+    line-height: 40px;
+    padding: 0 27px;
+    display: block;
+}
+
+.flecha {
+    background-image: url('../img/arrow-down.png');
+    background-position: right 10px top 19px;
+    background-repeat: no-repeat;
+}
+
+#contenido a:hover {
+    background-color: darkturquoise;
+}
